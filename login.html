@@ -1,92 +1,88 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Login</title>
-	<meta charset="utf-8"/>
-	<meta name="viewport" content="width=device-width,initial-scale=1"/>
-	<!-- external css start -->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css"/>
-        <link rel="stylesheet" type="text/css" href="css/animate.css"/>
-        <link rel="stylesheet" type="text/css" href="css/login.css"/>
-	<!-- external css end -->
-</head>
-<!-- body start -->
-<body>
-	 <!-- container start -->
-	      <div class="container">
-	      	  <div class="row">
-	      	  	  <div class="col-lg-4 col-md-4"></div>
+	<head>
+		<title>Login</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<!-- external css start -->
+	        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	        <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css"/>
+	        <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+	        <link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<!-- external css end -->
+	</head>
+	<!-- body start -->
+	<body>
+		<!-- container start -->
+	    <div class="container">
+	      	 <div class="row">
+	      	  	<div class="col-lg-4 col-md-4"></div>
 	      	  	    <!-- login start -->
-					    <div class="col-lg-4 col-md-4 card-margin card-color card-padding card-radius animated fadeInDown">
-		                    <div class="col-lg-12 col-md-12  card-text-color card-text-margin card-text-padding card-text-align ">
-                              <h3>LOG IN</h3>
-                              <span class="glyphicon glyphicon-remove card-glyphicon"></span>
-		                    </div>
-                                <!-- form start -->
-						      	  	<div class="col-lg-12 col-md-12 card-form card-form-margin card-form-line card-form-radius">
-						      	  		<form class="form" role="form" name="myform" onsubmit="return validateform();" action="main.html" method="">
-						      	  		     <div class="row">
-							      	  		     <div class="col-lg-1 col-md-1"></div>
-							      	  		        <div class="col-lg-10 col-md-10 ">
-							      	  		      	    <div class="input-group form-group">
-															<div class="input-group-addon">
-																<span class="fa fa-user " aria-hidden="true"></span>
-															</div>
-															<input type="email" name="email" class="form-control card-email-color card-email-hover card-email-shadow " placeholder="Email id.."/>
-															
-														</div>
-														<div id="error"></div>
-														<div class="input-group form-group">
-															<div class="input-group-addon">
-																<span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
-															</div>
-															<input type="password" name="pass" class="form-control card-pass-color card-pass-hover" placeholder="Password.." autocomplete="on" />
-															
-														</div>
-														<div id="error"></div>
-														<div class="input-group form-group card-forgot-margin card-forgot-color">
-															<span>Forgot Username or Password?</span>
-														</div>	
-														 <div class="form-group">
-
-										                 </div>
-                                                        <div class="row">
-															<div class="col-md-12 text-center">
-																<button type="submit" class="btn btn-lg btn-success btn-darkgreen btn-block btn-radius">Log in</button>
-														    </div>
-														</div>
-							      	  		        </div>
-							      	  		      <div class="col-lg-1 col-md-1"></div>   
-						      	  		   	 </div>
-						      	  		 </form>	
-						      	  	</div>  	 
-						      	<!-- form end -->
-					   </div>
-					   <!-- login end -->
+					<div class="col-lg-4 col-md-4 card-margin card-color card-padding card-radius animated fadeInDown">
+		                <div class="col-lg-12 col-md-12  card-text-color card-text-margin card-text-padding card-text-align ">
+	                        <h3>LOG IN</h3>
+	                    	<span class="glyphicon glyphicon-remove card-glyphicon"></span>
+		                </div>
+	                    <!-- form start -->
+						<div class="col-lg-12 col-md-12 card-form card-form-margin card-form-line card-form-radius">
+						    <form class="form form-class" role="form" name="myform" onsubmit="return validateform();" action="main.html" method="">
+			      	  		    <div class="row">
+				      	  		    <div class="col-lg-1 col-md-1"></div>
+			      	  		        <div class="col-lg-10 col-md-10 ">
+			      	  		      	    <div class="input-group form-group">
+											<div class="input-group-addon">
+												<span class="fa fa-user " aria-hidden="true"></span>
+											</div>
+											<input type="email" name="email" class="form-control card-email-color card-email-hover card-email-shadow " placeholder="Email id.."/>
+										</div>
+										<div id="error"></div>
+										<div class="input-group form-group">
+											<div class="input-group-addon">
+												<span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+											</div>
+											<input type="password" name="pass" class="form-control card-pass-color card-pass-hover" placeholder="Password.." autocomplete="on" />
+										</div>
+										<div id="error"></div>
+										<div class="input-group form-group card-forgot-margin card-forgot-color">
+											<span>Forgot Username or Password?</span>
+										</div>	
+	                                    <div class="row">
+											<div class="col-md-12 text-center">
+												<button type="submit" class="btn btn-lg btn-success btn-darkgreen btn-block btn-radius">Log in</button>
+										    </div>
+										</div>
+			      	  		        </div>
+				      	  		    <div class="col-lg-1 col-md-1"></div>   
+			      	  		   	</div>
+			      	  		</form>	
+						</div>  	 
+						<!-- form end -->
+					</div>
+					<!-- login end -->
 		      	  <div class="col-lg-4 col-md-4"></div>
 	      	  </div>
-	      </div>
-	 <!-- container end -->
-	 <!-- validation start -->
-	 <script type="text/javascript" src="js/jquery.js"></script>
-	 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-	 <script type="text/javascript">
-	 	function validateform(){
-		 	var email = document.myform.email.value;
-		 	var password = document.myform.pass.value;
-		 	if(email==""){
-		 		document.getElementById('error').innerHTML ="please enter the valid email-id";
-		 		console.log("enter correct email");
-		 		return false;
-		 	}else if(password.length<=6) {
-		 		document.getElementById('error').innerHTML ="please enter currect password";
-		 		console.log("enter correct password");
-		 		return false;
-		 	}
-		}
-	 </script>
-	 <!-- validation end -->
-</body>
-<!-- body end -->
+	    </div>
+	 	<!-- container end -->
+
+		<!-- validation start -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+		 	function validateform(){
+			 	var email = document.myform.email.value;
+			 	var password = document.myform.pass.value;
+			 	if(email==""){
+			 		document.getElementById('error').innerHTML ="please enter the valid email-id";
+			 		console.log("enter correct email");
+			 		return false;
+			 	}else if(password.length<=6) {
+			 		document.getElementById('error').innerHTML ="please enter currect password";
+			 		console.log("enter correct password");
+			 		return false;
+			 	}
+			}
+		</script>
+		<!-- validation end -->
+	</body>
+	<!-- body end -->
 </html>

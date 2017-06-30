@@ -1,7 +1,6 @@
 body{
 	background-color:#be862f;
 }
-
 .card-color{
 	background-color:#8d7e67;
 	letter-spacing: 2px;
@@ -11,12 +10,10 @@ body{
 }
 .card-padding{
 	padding: 0;
+	box-shadow: 0 2px 10px #4a310b;
 }
 .card-radius{
 	border-radius: 6px;
-}
-.card-line{
-
 }
 .card-text-color{
 	color: #fff;
@@ -57,60 +54,73 @@ body{
     border-top-width: 4px;
     border-top-color: #955f39;
     padding: 15px;
+    border-bottom: 5px solid #4a310b;
 }
 
 .card-email-color {
 	background-color: #916f3f;
 	color: #fff;
-	
+	height:52px;	
+	border-color:#4a310b;
 }
 .card-email-color:focus{
 	background-color: #85714c !important;
 	color: #fff;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	border-color: #ddd;
-	
+	border-color: #4a310b;
 }
-
-.card-email-shadow{
-	box-shadow:inset 0 0 4px #000000;
-
-}
-
-
 .card-pass-color{
 	background-color: #916f3f;
 	color: #fff;
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	border-radius: none;
-
+	height:52px; 
+	border-color:#4a310b;
 }
 .card-pass-color:focus{
 	background-color: #85714c !important;
 	color: #fff;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	border-color: #ddd;
+	border-color: #4a310b;
 }
-
 .card-forgot-margin{
 	margin:0 0 0 42px;
 }
 .card-forgot-color{
 	color:#fff;
 	letter-spacing: 1px;
+	margin-bottom:15px;
 }
 .btn-darkgreen{
 	background-color: #669024;
-	border-radius: none;
+	border-radius:0;
+	border-color:#669024;
 }
-..btn-darkgreen:hover{
-	background-color: #669024;
+.btn-darkgreen:active:focus{
+	background-color:#4d7908;
+	color:#fff;
+	border:none;
+	outline:none;
 }
-
-
-
-
+.btn-darkgreen:hover{
+	background-color:#4d7908;
+	color:#fff;
+}
+.btn-darkgreen:focus{
+	background-color:#4d7908;
+	color:#fff;
+	outline:none;
+	border:none;
+}
+.form-class .input-group-addon{
+	background-color:#916f3f;
+	color:#fff;
+	border-color:#4a310b;
+}
+#error{
+   color:red;
+}
 /*form end
